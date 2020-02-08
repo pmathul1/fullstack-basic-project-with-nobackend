@@ -1,0 +1,156 @@
+@import'../bootstrap-4.4.1-dist/css/bootstrap.css';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+body
+{
+    font-family: 'Open Sans', sans-serif;
+}
+ .navbar-brand svg {
+    fill: #ee2e24;
+    width: 81px;
+    height: 29px;
+    vertical-align: middle;
+}
+.container
+{
+    max-width: 1400px;
+
+}
+#sectionheader
+{
+    padding: 7px 0;
+    box-shadow: 1px 0px 4px 1px #ccc;
+}
+.globe
+{
+    width: 29px;
+    fill: black;
+}
+.nav-link
+{
+    color: #111 !important;
+    font-weight: bold;
+    letter-spacing: 1.1;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.nav-item:nth-child(1)
+{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+
+.dropdownGurgaon
+{
+    display: ;
+}
+
+.citymenu
+{
+    background:#f3f5f7;
+    height: 44px;
+}
+.citymenu ul{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.citymenu ul li{
+    padding:10px;
+}
+.citymenu ul li a
+{
+    display: inline-block;
+    padding: 1px 25px;
+    color: #999;
+} 
+.jumbotron
+{
+    background: linear-gradient(135.46deg,#d11450,#df293a);
+    padding: 0;
+    
+}
+.jumbotron h1
+{
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 27px 0px;
+    letter-spacing: 1.3px;
+}
+.jumbotron .row
+{
+    display: flex;
+    justify-content: center;
+}
+.jumbotron .form-control
+{
+    border-radius: 0;
+    border: none;
+    box-sizing: border-box;
+    padding: 28px;
+}
+.jumbotron input.form-control:nth-child(1)
+{
+    border-right: 1px solid#555;
+}
+#showcase
+{
+    background: linear-gradient(135.46deg,#d11450,#df293a);
+    width: 100%;
+    padding: 10px 0 32px;
+    margin-bottom: 18px;
+}
+.col-md-3
+{
+    padding: 0;
+}
+.nearme svg
+{
+    width: 15px;
+    height: 15px;
+
+}
+#nearmewrapper
+{
+    position: relative;
+}
+.nearme
+{
+    position: absolute;
+    top: -44px;
+    left: 357px;
+    width: 97px;
+    background: #eee;
+    border-radius: 15px;
+    padding: 4px 9px;
+}
+.middleinput
+{
+    text-indent: -999px;
+}
+#middlespanWrapper
+{
+    position: relative;
+}
+.middlespan
+{
+    position: absolute;
+    top: -41px;
+    right: -255px;
+    width: 158px;
+    height: 27px;
+}
+::placeholder
+{
+    color: black !important;
+    font-weight: 600 !important;
+}
+span 
+{
+    color: black;
+}
